@@ -1,0 +1,17 @@
+{
+  "name": "actcast-google-form-event-registration-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "clasp push"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/google-apps-script": "0.0.54"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.2.1"
+  }
+}
