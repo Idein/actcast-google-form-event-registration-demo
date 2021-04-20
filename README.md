@@ -24,7 +24,8 @@
 7. `npx forked-clasp push`
 8. `npx forked-clasp open` and register trigger
   - function: `onFormSubmit`
-  - trigger type: form submit
+  - trigger type: form
+9. Deploy web app
 
 ### Setup Cast(Actcast)
 
