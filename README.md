@@ -1,8 +1,8 @@
-# Actcast event registration demo using Google Form
+# Actcast event registration demo using Google Forms
 
 ## How to setup
 
-1. Create Google Form
+1. Create Google Forms
   - First question: `Your name`
   - Second question: `Email Address`
 1. Create answer SpreadSheet and rename sheet `Attendance`
