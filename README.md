@@ -20,8 +20,9 @@
 ```
 
 5. `npx forked-clasp login`
-6. `npx forked-clasp push`
-7. `npx forked-clasp open` and register trigger
+6. Visit `https://script.google.com/home/usersettings` to enable Google Apps Script
+7. `npx forked-clasp push`
+8. `npx forked-clasp open` and register trigger
   - function: `onFormSubmit`
   - trigger type: form submit
 
