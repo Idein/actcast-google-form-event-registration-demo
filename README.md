@@ -6,7 +6,7 @@
   - First question: `Your name`
   - Second question: `Email Address`
 2. Create answer SpreadSheet and rename sheet `Attendance`
-3. add some columns
+3. Add some columns
   - `code`: string
   - `status` column: check box
 4. Clone this project
@@ -19,8 +19,9 @@
 }
 ```
 
-6. `clasp push`
-7. `clasp open` and register trigger
+5. `npx forked-clasp login`
+6. `npx forked-clasp push`
+7. `npx forked-clasp open` and register trigger
   - function: `onFormSubmit`
   - trigger type: form submit
 
