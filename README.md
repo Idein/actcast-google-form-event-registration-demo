@@ -5,12 +5,12 @@
 1. Create Google Forms
   - First question: `Your name`
   - Second question: `Email Address`
-1. Create answer SpreadSheet and rename sheet `Attendance`
-1. add some columns
+2. Create answer SpreadSheet and rename sheet `Attendance`
+3. add some columns
   - `code`: string
   - `status` column: check box
-1. Clone this project
-1. Create `.clasp.json`
+4. Clone this project
+5. Create `.clasp.json`
 
 ```json
 {
