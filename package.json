@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push": "clasp push"
+    "push": "forked-clasp push"
   },
   "author": "",
   "license": "MIT",
