@@ -1,16 +1,16 @@
-# Actcast event registration demo using Google Form
+# Actcast event registration demo using Google Forms
 
 ## How to setup
 
-1. Create Google Form
+1. Create Google Forms
   - First question: `Your name`
   - Second question: `Email Address`
-1. Create answer SpreadSheet and rename sheet `Attendance`
-1. add some columns
+2. Create answer SpreadSheet and rename sheet `Attendance`
+3. Add some columns
   - `code`: string
   - `status` column: check box
-1. Clone this project
-1. Create `.clasp.json`
+4. Clone this project
+5. Create `.clasp.json`
 
 ```json
 {
@@ -19,10 +19,13 @@
 }
 ```
 
-6. `clasp push`
-7. `clasp open` and register trigger
+5. `npx forked-clasp login`
+6. Visit `https://script.google.com/home/usersettings` to enable Google Apps Script
+7. `npx forked-clasp push`
+8. `npx forked-clasp open` and register trigger
   - function: `onFormSubmit`
-  - trigger type: form submit
+  - trigger type: form
+9. Deploy web app
 
 ### Setup Cast(Actcast)
 

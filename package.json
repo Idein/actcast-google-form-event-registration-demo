@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push": "clasp push"
+    "push": "forked-clasp push"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@types/google-apps-script": "1.0.30"
+    "@types/google-apps-script": "1.0.31"
   },
   "devDependencies": {
-    "@google/clasp": "^2.3.0"
+    "forked-clasp": "^2.11.2"
   }
 }
